@@ -1,0 +1,36 @@
+{
+  "name": "rpg-game",
+  "version": "1.0.0",
+  "description": "Задание к лекции \"Рабочее окружение современного проекта\"",
+  "main": "index.js",
+  "scripts": {
+    "lint": "eslint .",
+    "build": "webpack",
+    "start": "webpack serve --open"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://fungerrus"
+  },
+  "keywords": [
+    "rpg",
+    "game",
+    "lection"
+  ],
+  "author": "Vlad Vikhrov Fungerrus",
+  "license": "ISC",
+  "devDependencies": {
+    "css-loader": "^7.1.2",
+    "eslint": "^8.57.1",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "html-webpack-plugin": "^5.6.3",
+    "mini-css-extract-plugin": "^2.9.2",
+    "webpack": "^5.97.1",
+    "webpack-cli": "^6.0.1",
+    "webpack-dev-server": "^5.2.0"
+  },
+  "dependencies": {
+    "core-js": "^3.39.0",
+    "http-server": "^14.1.1"
+  }
+}
